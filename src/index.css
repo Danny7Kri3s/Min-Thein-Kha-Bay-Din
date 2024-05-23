@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BurmaFont";
+  src: url('../public/fonts/Burmese\ Handwriting.ttf');
+}
+
+* {
+  @apply transition-colors duration-200
+}
+
+
